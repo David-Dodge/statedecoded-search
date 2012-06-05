@@ -14,10 +14,9 @@
 			<field column="title"		xpath="/rss/channel/item/title" />
 			<field column="doc_type"	xpath="/rss/channel/item/" template="Comment" />
 			<field column="link"		xpath="/rss/channel/item/link"/>
-			<field column="id"		xpath="/rss/channel/item/" template="Comment${vacode.link}" />
+			<field column="key"		xpath="/rss/channel/item/" template="Comment${vacode.link}" />
 			<field column="description"	xpath="/rss/channel/item/description" />
 			<field column="author"		xpath="/rss/channel/item/creator" />
-			<field column="dateThing"	xpath="/rss/channel/item/pubDate"/>
 
 		</entity>
 	</document>

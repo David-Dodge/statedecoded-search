@@ -53,7 +53,7 @@
 	<div>Decision: $doc.getFieldValue('court_decision')</div>
 #end
 ##Display for SQL Laws Feed
-#<div>Title: $params</div>
+##<div>Title: $doc.getFieldValue('law_code')</div>
 ##<div>Section: $doc.getFieldValue('law_section')</div>
 
 <div class="mlt">
