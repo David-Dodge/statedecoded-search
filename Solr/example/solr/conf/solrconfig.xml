@@ -746,6 +746,10 @@
        <str name="pf">text</str>
        <str name="hl">true</str>
        <str name="hl.fl">text</str>
+       <str name="mlt">true</str>
+       <str name="mlt.qf">text^0.5 key^10.0</str>
+       <str name="mlt.fl">text, key</str>
+       <int name="mlt.count">3</int>
      </lst>
     <!-- In addition to defaults, "appends" params can be specified
          to identify values which should be appended to the list of
@@ -830,11 +834,11 @@
          text^0.5 id^10.0
        </str>
        <str name="mlt">true</str>
-       <str name="mlt.fl">text,features,name,sku,id,manu,cat</str>
+       <str name="mlt.fl">text, key</str>
        <int name="mlt.count">3</int>
 
        <str name="qf">
-          text^100.5 id^10.0
+          text^100.5 key^10.0
        </str>
 
        <str name="facet">on</str>

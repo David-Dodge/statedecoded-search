@@ -913,7 +913,7 @@
         via copyField further on in this schema  -->
 
    <!-- General Fields across docs -->
-   <field name="text" type="text_general" indexed="true" stored="false" multiValued="true"/>
+   <field name="text" type="text_general" indexed="true" stored="false" multiValued="true" termVectors="true"/>
    <field name="id" type="string" indexed="true" stored="true"/>
    <field name="key" type="string" indexed="true" stored="true" />
    <field name="doc_type" type="string" indexed="true" stored="true" />
